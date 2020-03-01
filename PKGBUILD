@@ -1,4 +1,4 @@
-pkgname=ttf-ProggyVector
+pkgname=ttf-proggy-vector
 pkgver=1.1.5
 _pkgname=proggyfonts-${pkgver}
 pkgrel=1
