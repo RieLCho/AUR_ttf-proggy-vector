@@ -1,5 +1,6 @@
 pkgname=ttf-ProggyVector
 pkgver=1.1.5
+_pkgname=proggyfonts-${pkgver}
 pkgrel=1
 pkgdesc="Proggy Vector is Monospaced, Fixed-width TrueType font optimized for C,C++ Programming."
 arch=('any')
@@ -11,6 +12,6 @@ md5sums=('SKIP')
 
 package(){
     mkdir -p "${pkgdir}/usr/share/fonts/"{TTF}
-    
+
     install -m644 "${_pkgname}/ProggyVector/ProggyVector Regular.ttf" "${pkgdir}/usr/share/fonts/TTF" 
 }
