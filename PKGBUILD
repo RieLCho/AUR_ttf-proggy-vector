@@ -12,5 +12,5 @@ md5sums=('SKIP')
 
 package(){
     install -d "${pkgdir}/usr/share/fonts/TTF/"
-    install -m644 "${srcdir}/ProggyVector/ProggyVector Regular.ttf" "${pkgdir}/usr/share/fonts/TTF" 
+    install -m644 "${srcdir}/${_pkgname}/ProggyVector/ProggyVector Regular.ttf" "${pkgdir}/usr/share/fonts/TTF" 
 }
