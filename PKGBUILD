@@ -11,6 +11,6 @@ source=("https://github.com/bluescan/proggyfonts/archive/v${pkgver}.zip")
 md5sums=('SKIP')
 
 package(){
-    install -d "${pkgdir}/usr/share/fonts/TTF/"
-    install -m644 "${_pkgname}/ProggyVector/*.ttf" "${pkgdir}/usr/share/fonts/TTF" 
+    install -d ${pkgdir}/usr/share/fonts/TTF/
+    install -m644 *.ttf ${pkgdir}/usr/share/fonts/TTF 
 }
