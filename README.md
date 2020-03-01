@@ -38,7 +38,7 @@ or clone this repository, build and install.
 ~ makepkg -si
 ```
 
-##Deployment
+## Deployment
 
 Find your font with **ProggyVector**, select and you are done!
 ![font_apply](./images/font_apply.png)
