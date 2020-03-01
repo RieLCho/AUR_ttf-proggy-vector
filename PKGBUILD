@@ -7,7 +7,7 @@ arch=('any')
 url="https://github.com/bluescan/proggyfonts"
 license=('MIT')
 install=ttf-ProggyVector.install
-source=("https://github.com/bluescan/proggyfonts/releases/download/VER${pkgver}/${_pkgname}.tar.gz")
+source=("https://github.com/bluescan/proggyfonts/releases/download/v${pkgver}/${_pkgname}.tar.gz")
 md5sums=('SKIP')
 
 package(){
