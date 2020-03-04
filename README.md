@@ -12,12 +12,12 @@ Before installing AUR package, you should install AUR helper and dependency pack
 
 ex) yaourt
 ```
-~ sudo pacman -S binutils gcc pkgfile
-~ sudo pkgfile --update
-~ sudo pkgfile strip
-~ sudo pacman -S pkg-config
-~ sudo pacman -S make
-~ sudo pacman -S base-devel
+# pacman -S binutils gcc pkgfile
+# pkgfile --update
+# pkgfile strip
+# pacman -S pkg-config
+# pacman -S make
+# pacman -S base-devel
 ~ git clone https://aur.archlinux.org/yaourt.git
 ~ cd yaourt
 ~ makepkg -si
